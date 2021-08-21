@@ -13,3 +13,6 @@ include device/qcom/common/BoardConfigQcom.mk
 
 # Kernel configuration.
 include vendor/lighthouse/target/board/BoardConfigKernel.mk
+
+# Soong
+include vendor/lighthouse/target/board/BoardConfigSoong.mk
