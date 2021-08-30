@@ -6,4 +6,5 @@
 
 # Overlays
 PRODUCT_PACKAGES += \
-    LighthouseFrameworksOverlay
+    LighthouseFrameworksOverlay \
+    LighthouseSystemUIOverlay
