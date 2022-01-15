@@ -41,3 +41,6 @@ PRODUCT_PACKAGES += \
     IconPackRoundedSettingsOverlay \
     IconPackRoundedSystemUIOverlay \
     IconPackRoundedThemePickerOverlay \
+
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lighthouse/overlay/static
+PRODUCT_PACKAGE_OVERLAYS += vendor/lighthouse/overlay/static
