@@ -9,4 +9,5 @@ PRODUCT_PACKAGES += \
     LighthouseFrameworksOverlay \
     LighthouseSystemUIOverlay \
     LighthouseLauncherOverlay \
-    LighthouseSettingsProviderOverlay
+    LighthouseSettingsProviderOverlay \
+    LighthouseSettingsOverlay
