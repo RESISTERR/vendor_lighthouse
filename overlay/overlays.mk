@@ -44,6 +44,7 @@ PRODUCT_PACKAGES += \
     FontGoogleSansOverlay \
     FontInterOverlay \
     FontManropeOverlay \
+    FontHarmonySansOverlay \
     FontUrbanistOverlay
 
 
