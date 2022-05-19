@@ -85,3 +85,8 @@ PRODUCT_COPY_FILES += \
 # but also allow explicit overriding for testing and development.
 SYSTEM_OPTIMIZE_JAVA ?= true
 SYSTEMUI_OPTIMIZE_JAVA ?= true
+
+# Fonts
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/lighthouse/prebuilts/fonts/,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
+    vendor/lighthouse/target/config/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
