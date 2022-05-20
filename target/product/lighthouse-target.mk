@@ -67,6 +67,10 @@ SKIP_BOOT_JARS_CHECK := true
 # leave less information available via JDWP.
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
+# Pre-optimization
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI
+
 # Sensitive phone numbers and APN configurations
 PRODUCT_COPY_FILES += \
     vendor/lighthouse/target/config/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
