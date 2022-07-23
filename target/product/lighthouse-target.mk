@@ -13,9 +13,6 @@ $(call inherit-product, vendor/lighthouse/bootanimation/bootanimation.mk)
 # Don't dexpreopt prebuilts. (For GMS).
 DONT_DEXPREOPT_PREBUILTS := true
 
-# Filesystem
-TARGET_FS_CONFIG_GEN += vendor/lighthouse/target/config/config.fs
-
 # Include Common Qualcomm Device Tree
 $(call inherit-product, device/qcom/common/common.mk)
 
