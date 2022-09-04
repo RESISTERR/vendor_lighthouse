@@ -58,8 +58,7 @@ PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 # Permissions
 PRODUCT_COPY_FILES += \
     vendor/lighthouse/target/config/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
-    vendor/lighthouse/target/config/permissions/privapp_whitelist_com.android.wallpaper.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp_whitelist_com.android.wallpaper.xml \
-    vendor/lighthouse/target/config/permissions/default_permissions_com.android.wallpaper.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/default_permissions_com.android.wallpaper.xml
+    vendor/lighthouse/target/config/permissions/privapp_whitelist_com.android.wallpaper.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp_whitelist_com.android.wallpaper.xml
 
 # Skip boot JAR checks
 SKIP_BOOT_JARS_CHECK := true
