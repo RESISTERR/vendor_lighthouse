@@ -28,7 +28,7 @@ PRODUCT_PACKAGES += \
 
 # Theme Picker
 PRODUCT_PACKAGES += \
-    ThemePicker
+    LighthouseThemePicker
 
 # QTI VNDK Framework Detect
 PRODUCT_PACKAGES += \
