@@ -7,3 +7,5 @@
 PRODUCT_PRIVATE_SEPOLICY_DIRS += \
     vendor/lighthouse/sepolicy/private
 
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    vendor/lighthouse/sepolicy/vendor
