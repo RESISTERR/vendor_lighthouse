@@ -7,6 +7,9 @@
 # LH versioning
 $(call inherit-product, vendor/lighthouse/target/product/version.mk)
 
+# Bootanimation
+$(call inherit-product, vendor/lighthouse/bootanimation/bootanimation.mk)
+
 # Don't dexpreopt prebuilts. (For GMS).
 DONT_DEXPREOPT_PREBUILTS := true
 
