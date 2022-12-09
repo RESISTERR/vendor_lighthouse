@@ -13,6 +13,10 @@
     <font weight="400" style="normal">ArbutusSlab-Regular.ttf</font>
   </family>
 
+  <family customizationType="new-named-family" name="google-sans-clock">
+    <font>GoogleSansClock-Regular.ttf</font>
+  </family>
+
   <family customizationType="new-named-family" name="lato">
     <font weight="400" style="normal">Lato-Regular.ttf</font>
     <font weight="400" style="italic">Lato-Italic.ttf</font>
