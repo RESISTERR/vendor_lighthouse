@@ -106,7 +106,7 @@ done
 echo -e "${blu}\nUpdating manifest..."
 if curl -Ls $MANIFEST_URL > $MANIFEST_XML; then
     $IS_QSSI || sed -i '3,7d' $MANIFEST_XML
-    if git -C manifest commit -aq -m "manifest: Update to $TAG" &> /dev/null; then
+    if git -C manifest commit -aq -m "manifest: update to $TAG" &> /dev/null; then
         echo -e "${blu}Manifest updated succesfully!"
         echo manifest >> success
     else
@@ -121,7 +121,7 @@ fi
 if $IS_QSSI; then
     echo -e "\n${blu}Updating CLO revision in vendor/lighthouse..."
     sed -i "s|CLO_REVISION := .*|CLO_REVISION := $TAG|g" vendor/lighthouse/target/product/version.mk
-    if git -C vendor/lighthouse commit -aq -m "lighthouse: version: update CLO revision to $TAG" &> /dev/null; then
+    if git -C vendor/lighthouse commit -aq -m "version: update CLO revision to $TAG" &> /dev/null; then
         echo -e "${blu}CLO revision updated succesfully!"
         echo vendor/lighthouse >> success
     else
