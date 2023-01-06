@@ -25,6 +25,9 @@ else
     LIGHTHOUSE_BUILD_TYPE := unofficial
 endif
 
+# CLO Revision
+CLO_REVISION := LA.QSSI.13.0.r1-08300-qssi.0
+
 # System version
 TARGET_PRODUCT_SHORT := $(subst lighthouse_,,$(LIGHTHOUSE_BUILD_TYPE))
 
@@ -42,4 +45,5 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
   ro.lighthouse.device=$(LIGHTHOUSE_BUILD) \
   ro.lighthouse.version=$(LIGHTHOUSE_VERSION) \
   ro.lighthouse.build.date=$(LIGHTHOUSE_BUILD_DATE) \
+  ro.lighthouse.clo.revision=$(CLO_REVISION) \
   ro.lighthouse.build.type=$(LIGHTHOUSE_BUILD_TYPE)
