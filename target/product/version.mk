@@ -26,7 +26,7 @@ else
 endif
 
 # CLO Revision
-CLO_REVISION := LA.QSSI.13.0.r1-08300-qssi.0
+CLO_REVISION := LA.QSSI.13.0.r1-08600.01-qssi.0
 
 # System version
 TARGET_PRODUCT_SHORT := $(subst lighthouse_,,$(LIGHTHOUSE_BUILD_TYPE))
