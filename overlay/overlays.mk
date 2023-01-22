@@ -5,42 +5,65 @@
 #
 
 # Overlays
+
+# Lighthouse Overlays
 PRODUCT_PACKAGES += \
     LighthouseFrameworksOverlay \
     LighthouseSystemUIOverlay \
     LighthouseLauncherOverlay \
     LighthouseSettingsProviderOverlay \
-    LighthouseSettingsOverlay \
+    LighthouseSettingsOverlay
+
+# Icon Pack (Circular)
+PRODUCT_PACKAGES += \
     IconPackCircularAndroidOverlay \
     IconPackCircularLauncherOverlay \
     IconPackCircularSettingsOverlay \
     IconPackCircularSystemUIOverlay \
-    IconPackCircularThemePickerOverlay \
+    IconPackCircularThemePickerOverlay
+
+# Icon Pack (Victor)
+PRODUCT_PACKAGES += \
     IconPackVictorAndroidOverlay \
     IconPackVictorLauncherOverlay \
     IconPackVictorSettingsOverlay \
     IconPackVictorSystemUIOverlay \
-    IconPackVictorThemePickerOverlay \
+    IconPackVictorThemePickerOverlay
+
+# Icon Pack (Sam)
+PRODUCT_PACKAGES += \
     IconPackSamAndroidOverlay \
     IconPackSamLauncherOverlay \
     IconPackSamSettingsOverlay \
     IconPackSamSystemUIOverlay \
-    IconPackSamThemePickerOverlay \
+    IconPackSamThemePickerOverlay
+
+# Icon Pack (Kai)
+PRODUCT_PACKAGES += \
     IconPackKaiAndroidOverlay \
     IconPackKaiLauncherOverlay \
     IconPackKaiSettingsOverlay \
     IconPackKaiSystemUIOverlay \
-    IconPackKaiThemePickerOverlay \
+    IconPackKaiThemePickerOverlay
+
+# Icon Pack (Filled)
+PRODUCT_PACKAGES += \
     IconPackFilledAndroidOverlay \
     IconPackFilledLauncherOverlay \
     IconPackFilledSettingsOverlay \
     IconPackFilledSystemUIOverlay \
-    IconPackFilledThemePickerOverlay \
+    IconPackFilledThemePickerOverlay
+
+# Icon Pack (Rounded)
+PRODUCT_PACKAGES += \
     IconPackRoundedAndroidOverlay \
     IconPackRoundedLauncherOverlay \
     IconPackRoundedSettingsOverlay \
     IconPackRoundedSystemUIOverlay \
-    IconPackRoundedThemePickerOverlay \
+    IconPackRoundedThemePickerOverlay
+
+# Fonts
+PRODUCT_PACKAGES += \
     FontGoogleSansOverlay \
     FontInterOverlay \
     FontManropeOverlay \
