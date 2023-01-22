@@ -69,3 +69,7 @@ PRODUCT_PACKAGES += \
     FontManropeOverlay \
     FontHarmonySansOverlay \
     FontUrbanistOverlay
+
+# Custom themed icons
+PRODUCT_PACKAGES += \
+    ThemedIconsOverlay
