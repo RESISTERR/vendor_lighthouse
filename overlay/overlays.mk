@@ -46,7 +46,3 @@ PRODUCT_PACKAGES += \
     FontManropeOverlay \
     FontHarmonySansOverlay \
     FontUrbanistOverlay
-
-
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lighthouse/overlay/static
-PRODUCT_PACKAGE_OVERLAYS += vendor/lighthouse/overlay/static
