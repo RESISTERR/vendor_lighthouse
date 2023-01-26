@@ -24,6 +24,10 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     dalvik.vm.dex2oat64.enabled=true
 
+# GMS spoofing fingerprint
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.build.gms_fingerprint=google/angler/angler:6.0/MDB08L/2343525:user/release-keys
+
 # Optimise package manager dex flags
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     pm.dexopt.boot=verify \
